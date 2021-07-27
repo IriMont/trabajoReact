@@ -1,7 +1,7 @@
 const NavBar = () =>
     <nav>
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+        <a href="#">Productos</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Canasta de compra</a>
     </nav>
 export default NavBar
