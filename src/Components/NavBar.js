@@ -1,7 +1,13 @@
+import Cartwidget from "./cartwidget"
+
 const NavBar = () =>
-    <nav>
-        <a href="#">Productos</a>
-        <a href="#">Ofertas</a>
-        <a href="#">Canasta de compra</a>
-    </nav>
+    <div>
+        <ul>
+            <li>Productos</li>
+            <li>Ofertas</li>
+            <li>
+                <Cartwidget/>
+            </li>
+        </ul>
+    </div>
 export default NavBar
